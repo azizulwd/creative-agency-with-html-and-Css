@@ -44,3 +44,28 @@ img{
 .justify_content_evenly{
     justify-content: space-evenly;
 }
+.btn_regular {
+    background: #111430;
+    color: #fff !important;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+
+
+/* =======================
+Header CSS
+======================= */
+header {
+    background: #fbd062;
+    padding: 40px 0;
+}
+.header_inner .logo img {
+    width: 170px;
+}
+.navigation_menus ul {
+    gap: 30px;
+}
+.navigation_menus ul li a {
+    color: #111430;
+}
