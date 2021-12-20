@@ -22,6 +22,9 @@ a{
 img{
     width: 100%;
 }
+h1{
+    font-size: 50px;
+}
 .container{
     width: 1150px;
     margin: 0 auto;
@@ -54,13 +57,16 @@ img{
 
 
 /* =======================
-Header CSS
+Header CSS (Header top)
 ======================= */
 header {
     background: #fbd062;
     padding: 40px 0;
 }
-.header_inner .logo img {
+.top_navigation{
+    margin-bottom: 100px;
+}
+.top_navigation .logo img {
     width: 170px;
 }
 .navigation_menus ul {
@@ -69,3 +75,9 @@ header {
 .navigation_menus ul li a {
     color: #111430;
 }
+
+
+
+/* =======================
+Header CSS (Header bottom)
+======================= */
