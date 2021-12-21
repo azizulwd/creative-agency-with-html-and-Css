@@ -79,5 +79,30 @@ header {
 
 
 /* =======================
-Header CSS (Header bottom)
+Header CSS (banner)
 ======================= */
+header{
+    margin-bottom: 100px;
+}
+.banner{
+    gap: 10%;
+}
+.banner_info{
+    width: 40%;
+}
+.banner_info h1 {
+    color: #111430;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+.banner_info p{
+    color: #111430;
+    margin-bottom: 20px;
+}
+.banner_info a {
+    display: inline-block;
+    margin-top: 10px;
+}
+.banner_img{
+    width: 50%;
+}
