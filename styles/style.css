@@ -128,7 +128,7 @@ Main CSS (Partner)
 Main CSS (Services)
 ======================= */
 .services{
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 .services_title{
     text-align: center;
@@ -168,4 +168,30 @@ Main CSS (Services)
 .service p {
     color: #959191;
     line-height: 30px;
+}
+
+
+
+/* =======================
+Main CSS (Portfolio)
+======================= */
+.portfolio{
+    background: #111430;
+    margin-bottom: 100px;
+    padding: 100px 0;
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+}
+.portfolio_title{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.portfolio_title h2{
+    color: #fff;
+}
+.portfolio_title h2 span{
+    color: #7ab259;
 }
