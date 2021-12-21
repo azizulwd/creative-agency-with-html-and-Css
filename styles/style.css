@@ -106,3 +106,15 @@ header{
 .banner_img{
     width: 50%;
 }
+
+
+
+/* =======================
+Main CSS (Partner)
+======================= */
+.partner{
+    margin-bottom: 200px;
+}
+.partner img {
+    width: 120px;
+}
