@@ -238,3 +238,61 @@ Main CSS (Clients Feedback)
 .review .client_review p{
     color: #959191;
 }
+
+
+
+/* =======================
+Main CSS (Contact)
+======================= */
+.contact{
+    background: #fbd062;
+    padding: 50px 0;
+}
+.contact_inner{
+    gap: 10%;
+    margin-bottom: 100px;
+}
+.contact_info{
+    width: 40%;
+}
+.contact_info h1 {
+    font-size: 39px;
+    margin-bottom: 25px;
+}
+.contact_info p {
+    font-size: 14px;
+    line-height: 25px;
+}
+.contact_form{
+    width: 50%;
+}
+.contact_form input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.contact_form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.contact_form button {
+    font-size: 14px;
+    font-family: 'Poppins';
+    border: none;
+    cursor: pointer;
+}
+.copyright_text p{
+    font-size: 14px;
+    text-align: center;
+}
