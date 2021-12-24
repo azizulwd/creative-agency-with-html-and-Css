@@ -338,5 +338,7 @@ Main CSS (Contact)
         margin-bottom: 20px;
         width: 150px;
     }
-    
+    .services_inner{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
