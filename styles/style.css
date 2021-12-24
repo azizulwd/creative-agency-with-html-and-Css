@@ -320,4 +320,13 @@ Main CSS (Contact)
         justify-content: center;
         align-items: center;
     }
+    .banner{
+        flex-direction: column;
+    }
+    .banner_info, .banner_img{
+        width: 100%;
+    }
+    .banner_info{
+        margin-bottom: 50px;
+    }
 }
