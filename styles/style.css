@@ -296,3 +296,28 @@ Main CSS (Contact)
     font-size: 14px;
     text-align: center;
 }
+
+
+
+/* Media Query (Responsive) */
+@media screen and (max-width: 688px){
+    .container{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .top_navigation{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .top_navigation .logo{
+        margin-bottom: 50px;
+    }
+    .top_navigation .logo img{
+        width: 250px;
+    }
+    .navigation_menus ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
