@@ -347,4 +347,13 @@ Main CSS (Contact)
     .reviews{
         grid-template-columns: repeat(1, 1fr);
     }
+    .contact_inner{
+        flex-direction: column;
+    }
+    .contact_info, .contact_form{
+        width: 100%;
+    }
+    .contact_info{
+        margin-bottom: 50px;
+    }
 }
