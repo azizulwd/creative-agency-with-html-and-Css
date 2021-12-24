@@ -329,4 +329,14 @@ Main CSS (Contact)
     .banner_info{
         margin-bottom: 50px;
     }
+    .partner{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .partner img {
+        margin-bottom: 20px;
+        width: 150px;
+    }
+    
 }
